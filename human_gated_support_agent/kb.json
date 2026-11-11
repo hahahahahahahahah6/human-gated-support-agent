@@ -1,0 +1,50 @@
+[
+  {
+    "id": "refund",
+    "title": "Refund policy",
+    "intent": "refund",
+    "text": "Refunds are available within 30 days for unused products. Refunds go to the original payment method and take 5-10 business days."
+  },
+  {
+    "id": "shipping",
+    "title": "Shipping and tracking",
+    "intent": "shipping_status",
+    "text": "Standard shipping takes 3-5 days; express shipping takes 1-2 days. Track your shipment using the tracking number in your shipping confirmation."
+  },
+  {
+    "id": "password",
+    "title": "Password reset",
+    "intent": "password_reset",
+    "text": "A password reset link is valid for 1 hour. Each link is one-time use only."
+  },
+  {
+    "id": "cancellation",
+    "title": "Order cancellation",
+    "intent": "cancel_order",
+    "text": "Order cancellation is allowed before shipping only. Once shipped, an order cannot be cancelled."
+  },
+  {
+    "id": "billing",
+    "title": "Invoices and disputes",
+    "intent": "billing_question",
+    "text": "Invoices are available in your billing history. Charge disputes must be submitted within 60 days."
+  },
+  {
+    "id": "closure",
+    "title": "Account closure",
+    "intent": "close_account",
+    "text": "Account closure has a 7-day grace period. Account data is deleted after 30 days."
+  },
+  {
+    "id": "email",
+    "title": "Email changes",
+    "intent": "change_email",
+    "text": "To change your email, verify the new address. The verification link expires after 24 hours."
+  },
+  {
+    "id": "warranty",
+    "title": "Product warranty",
+    "intent": "general",
+    "text": "The product warranty lasts 1 year. It excludes accidental damage."
+  }
+]

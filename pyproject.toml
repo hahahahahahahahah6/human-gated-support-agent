@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "human-gated-support-agent"
+version = "0.1.0"
+description = "Local evidence-based support workflow with a durable human approval gate"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Hao Li"}]
+dependencies = []
+
+[project.scripts]
+human-gated-support-agent = "human_gated_support_agent.cli:main"
+
+[tool.setuptools]
+packages = ["human_gated_support_agent"]
+
+[tool.setuptools.package-data]
+human_gated_support_agent = ["kb.json", "cases.jsonl"]
